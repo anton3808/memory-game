@@ -1,0 +1,92 @@
+@media (max-width: 500px) {
+  main{
+    width: 300px;
+    height: 650px;
+    margin: auto;
+  }
+  .header-game{
+    width: 300px;
+    margin: 0 auto;
+  }
+  .memory-game{
+    width: 300px;
+    height: 650px;
+    padding: 5px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    perspective: 1000px;
+    border-radius: 10px;
+    margin-top: 10px;
+    background: #a1abba;
+  }
+  .memory-card{
+    height: calc(16.65% - 10px);
+    width: calc(33.333% - 10px);
+    margin: 5px;
+    position: relative;
+    transform: scale(1);
+    transform-style: preserve-3d;
+    transition: transform .5s;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5); /* Параметры тени */
+  }
+
+
+
+  .header-game h1{
+    font-size: 23px;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 25px;
+  }
+  .header-game .items{
+    font-family: 'OpenSans Regular';
+    font-size: 13px;
+    display: inline-block;
+    margin-bottom: 10px;
+  }
+
+
+  .star-mark{
+    margin-left: 10px;
+  }
+  .star{
+    font-size: 11px;
+  }
+
+
+
+  .header-game .moves{
+    margin-left: 30px;
+  }
+  .time{
+    margin-left: 30px;
+  }
+
+
+
+  .reload{
+    margin-left: 80px;
+  }
+  .reload-icon{
+    cursor: pointer;
+    font-size: 13px;
+  }
+  .reload-text{
+    font-size: 13px;
+    margin-left: 4px;
+  }
+
+
+
+
+  .menu{
+    margin-left: 40px;
+  }
+  .menu-icon{
+    cursor: pointer;
+    font-size: 13px;
+    margin-right: 3px;
+  }
+
+}

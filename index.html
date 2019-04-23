@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+
+  <title>Memory Game</title>
+<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+  <link rel="icon" href="img/brain_3.jpg">
+
+  <link rel="stylesheet" href="css/form.css">
+
+
+</head>
+<body>
+  
+  <div class="wrapper">
+    <div class="loader">
+      <span></span>
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+  </div>
+
+
+  <div class="login-page">
+    <h1>MEMORY GAME</h1>
+    <div class="form">
+      <form id="registration" class="register-form">
+        <label for="name">І'мя користувача</label>
+        <input type="text" name="name" id="name" required />
+        <label for="password">Пароль</label>
+        <input type="password" name="password" id="password" required />
+        <label for="password">Email</label>
+        <input type="text" name="email" id="email" required />
+        <p class="message">Already registered? <a href="#">Sign In</a></p>
+        <button>Create account</button>
+        <p class="no_in_base"></p>
+      </form>
+      <form id="myform" class="login-form">
+        <label for="username">І'мя користувача</label>
+        <input type="text" name="username" required />
+        <label for="password">Пароль</label>
+        <input type="password" name="password" required />
+        <p class="message">Not registered? <a href="#">Create an account</a></p>
+        <button class="login_button">Ввійти</button>
+        <p class="no_in_base_login"></p>
+      </form>
+    </div>
+  </div>
+
+  
+  <!-- <button id="button">Start</button> -->
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.17.0/jquery.validate.min.js"></script>
+  <script src="js/script.js"></script>
+  <script src="js/form.js"></script>
+  <script src="js/preloader.js"></script>
+</body>
+</html>

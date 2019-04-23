@@ -1,0 +1,25 @@
+@font-face {
+    font-family: 'OpenSans';
+    src: url(OpenSans/OpenSans-Light.ttf);
+}
+
+@font-face {
+    font-family: 'OpenSans Bold';
+    src: url(OpenSans/OpenSans-Bold.ttf);
+}
+
+@font-face {
+    font-family: 'OpenSans Regular';
+    src: url(OpenSans/OpenSans-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'OpenSans SemiBold';
+    src: url(OpenSans/OpenSans-SemiBold.ttf);
+}
+
+@font-face {
+    font-family: 'QanelasSoft Demo ExtraBold';
+    src: url(qanelas-soft-demo-extrabold.otf);
+}
+
